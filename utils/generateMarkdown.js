@@ -33,8 +33,9 @@ const generateMarkdown = data => {
     ## Tests
     ${data.test}
 
-    ## Questions
-    If you have any questions about this projects, feel free to contact me at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
+    ## Additional information/Questions
+    Feel free to contact me at ${data.email}. 
+    You can view more of my projects at https://github.com/${data.github}.
 `;
 }
 
