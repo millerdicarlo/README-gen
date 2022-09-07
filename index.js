@@ -1,9 +1,7 @@
-//console.log('Hello Node');
+//Test: console.log('Hello Node');
 const fs = require('fs'); 
 const inquirer = require('inquirer'); 
 const generatePage = require('./utils/generateMarkdown.js');
-
-// TODO: Include packages needed for this application
 
 // array of questions for user input
 const questions = () => {

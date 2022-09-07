@@ -1,5 +1,4 @@
 // If there is no license, return an empty string
-//function renderLicenseBadge(license) {}
 
 // Function to generate markdown for README
 const generateMarkdown = data => {
