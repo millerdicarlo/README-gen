@@ -132,14 +132,17 @@ const writeFile = data => {
     })
 };
 
-// Function to initialize app
-function init() {
-    inquirer.prompt(questions)
-    .then(function (userInput) {
-        console.log(userInput)
-        writeToFile("README.md", generateMarkdown(userInput));
-    });
-};
-
-// Function call to initialize app
-init();
+// function call to initialize program
+questions()
+// getting user answers 
+.then(answers => {
+    return generatePage(answers);
+})
+// using data to display on page 
+.then(data => {
+    return writeFile(data);
+})
+// catching errors 
+.catch(err => {
+    console.log(err)
+})
