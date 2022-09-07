@@ -1,6 +1,4 @@
 # README-gen
-    ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
-  
 
     ## Description
     generates README
