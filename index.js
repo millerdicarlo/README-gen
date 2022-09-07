@@ -1,3 +1,4 @@
+//console.log('Hello Node');
 const fs = require('fs'); 
 const inquirer = require('inquirer'); 
 const generatePage = require('./utils/generateMarkdown.js');
